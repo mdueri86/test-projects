@@ -45,10 +45,10 @@ namespace Question2
 
             try
             {
-                // try the generic method with ints
+                // try the generic method with ints - the class will contain all the info asked for in the questionaire.
                 ListSorter<int> listSorter = new ListSorter<int>(unsortedInts);
 
-                // try the generic method with strings
+                // try the generic method with strings - the class will contain all the info asked for in the questionaire.
                 ListSorter<string> listSorter2 = new ListSorter<string>(unsortedStrings);
                 
                 
